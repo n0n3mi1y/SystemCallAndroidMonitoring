@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\n0n3mi1y\\source\\repos\\SystemCallAndroidMonitoring\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FC286A0-E7A2-43BB-9708-CA48E0E142EF}|SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring.csproj|c:\\users\\n0n3mi1y\\source\\repos\\systemcallandroidmonitoring\\systemcallandroidmonitoring\\controllers\\scamapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FC286A0-E7A2-43BB-9708-CA48E0E142EF}|SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring.csproj|solutionrelative:systemcallandroidmonitoring\\controllers\\scamapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FC286A0-E7A2-43BB-9708-CA48E0E142EF}|SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring.csproj|c:\\users\\n0n3mi1y\\source\\repos\\systemcallandroidmonitoring\\systemcallandroidmonitoring\\titanium\\titaniuminstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FC286A0-E7A2-43BB-9708-CA48E0E142EF}|SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring.csproj|solutionrelative:systemcallandroidmonitoring\\titanium\\titaniuminstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FC286A0-E7A2-43BB-9708-CA48E0E142EF}|SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring.csproj|c:\\users\\n0n3mi1y\\source\\repos\\systemcallandroidmonitoring\\systemcallandroidmonitoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FC286A0-E7A2-43BB-9708-CA48E0E142EF}|SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring.csproj|solutionrelative:systemcallandroidmonitoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SCAMApi.cs",
+              "DocumentMoniker": "C:\\Users\\n0n3mi1y\\source\\repos\\SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring\\Controllers\\SCAMApi.cs",
+              "RelativeDocumentMoniker": "SystemCallAndroidMonitoring\\Controllers\\SCAMApi.cs",
+              "ToolTip": "C:\\Users\\n0n3mi1y\\source\\repos\\SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring\\Controllers\\SCAMApi.cs",
+              "RelativeToolTip": "SystemCallAndroidMonitoring\\Controllers\\SCAMApi.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAHsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T17:57:43.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TitaniumInstance.cs",
+              "DocumentMoniker": "C:\\Users\\n0n3mi1y\\source\\repos\\SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring\\Titanium\\TitaniumInstance.cs",
+              "RelativeDocumentMoniker": "SystemCallAndroidMonitoring\\Titanium\\TitaniumInstance.cs",
+              "ToolTip": "C:\\Users\\n0n3mi1y\\source\\repos\\SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring\\Titanium\\TitaniumInstance.cs",
+              "RelativeToolTip": "SystemCallAndroidMonitoring\\Titanium\\TitaniumInstance.cs",
+              "ViewState": "AgIAANgBAAAAAAAAAAA1wOkBAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T16:59:56.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\n0n3mi1y\\source\\repos\\SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring\\Program.cs",
+              "RelativeDocumentMoniker": "SystemCallAndroidMonitoring\\Program.cs",
+              "ToolTip": "C:\\Users\\n0n3mi1y\\source\\repos\\SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring\\Program.cs",
+              "RelativeToolTip": "SystemCallAndroidMonitoring\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAswDgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T16:57:56.164Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

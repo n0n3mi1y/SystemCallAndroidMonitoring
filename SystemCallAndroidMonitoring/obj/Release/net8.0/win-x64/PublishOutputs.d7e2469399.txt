@@ -1,0 +1,4 @@
+C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\obj\Release\net8.0\win-x64\PubTmp\Out\appsettings.Development.json
+C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\obj\Release\net8.0\win-x64\PubTmp\Out\appsettings.json
+C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\obj\Release\net8.0\win-x64\PubTmp\Out\SystemCallAndroidMonitoring.pdb
+C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\obj\Release\net8.0\win-x64\PubTmp\Out\SystemCallAndroidMonitoring.exe

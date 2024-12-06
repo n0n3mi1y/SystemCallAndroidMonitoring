@@ -1,0 +1,188 @@
+[
+  {
+    "ContainingType": "SystemCallAndroidMonitoring.Controllers.ScamApi",
+    "Method": "AddChangeRequest",
+    "RelativePath": "scamapi/addChangeRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "endPoint",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "replaceData",
+        "Type": "SystemCallAndroidMonitoring.Titanium.ChangeBody",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SystemCallAndroidMonitoring.Controllers.TitaniumInstanceApiResponse\u002BAddChangeBodyResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SystemCallAndroidMonitoring.Controllers.ScamApi",
+    "Method": "AddChangeResponse",
+    "RelativePath": "scamapi/addChangeResponse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "endPoint",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "replaceData",
+        "Type": "SystemCallAndroidMonitoring.Titanium.ChangeBody",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SystemCallAndroidMonitoring.Controllers.TitaniumInstanceApiResponse\u002BAddChangeBodyResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SystemCallAndroidMonitoring.Controllers.ScamApi",
+    "Method": "AddDomainForChange",
+    "RelativePath": "scamapi/addDomainForChange",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "endPoint",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "replaceData",
+        "Type": "SystemCallAndroidMonitoring.Titanium.DomainsForReplace",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SystemCallAndroidMonitoring.Controllers.TitaniumInstanceApiResponse\u002BAddDomainForChangeResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SystemCallAndroidMonitoring.Controllers.ScamApi",
+    "Method": "ClearTraffic",
+    "RelativePath": "scamapi/clearTraffic",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "endPoint",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SystemCallAndroidMonitoring.Controllers.TitaniumInstanceApiResponse\u002BGetTrafficResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SystemCallAndroidMonitoring.Controllers.ScamApi",
+    "Method": "GetInstances",
+    "RelativePath": "scamapi/getInstances",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SystemCallAndroidMonitoring.Controllers.TitaniumInstanceApiResponse\u002BGetInstances, SystemCallAndroidMonitoring, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SystemCallAndroidMonitoring.Controllers.ScamApi",
+    "Method": "GetTraffic",
+    "RelativePath": "scamapi/getTraffic",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "endPoint",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SystemCallAndroidMonitoring.Controllers.TitaniumInstanceApiResponse\u002BGetTrafficResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SystemCallAndroidMonitoring.Controllers.ScamApi",
+    "Method": "NewInstance",
+    "RelativePath": "scamapi/newInstance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proxy_row",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "proxyKillDelay",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

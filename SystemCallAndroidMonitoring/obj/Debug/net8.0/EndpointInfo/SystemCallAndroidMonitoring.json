@@ -1,0 +1,537 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "SystemCallAndroidMonitoring",
+    "version": "1.0"
+  },
+  "paths": {
+    "/scamapi/newInstance": {
+      "get": {
+        "tags": [
+          "ScamApi"
+        ],
+        "parameters": [
+          {
+            "name": "proxy_row",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "proxyKillDelay",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 300
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/scamapi/getInstances": {
+      "get": {
+        "tags": [
+          "ScamApi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GetInstances"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GetInstances"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GetInstances"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/scamapi/getTraffic": {
+      "get": {
+        "tags": [
+          "ScamApi"
+        ],
+        "parameters": [
+          {
+            "name": "endPoint",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetTrafficResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetTrafficResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetTrafficResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/scamapi/clearTraffic": {
+      "get": {
+        "tags": [
+          "ScamApi"
+        ],
+        "parameters": [
+          {
+            "name": "endPoint",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetTrafficResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetTrafficResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetTrafficResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/scamapi/addDomainForChange": {
+      "post": {
+        "tags": [
+          "ScamApi"
+        ],
+        "parameters": [
+          {
+            "name": "endPoint",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DomainsForReplace"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DomainsForReplace"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DomainsForReplace"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AddDomainForChangeResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AddDomainForChangeResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AddDomainForChangeResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/scamapi/addChangeRequest": {
+      "post": {
+        "tags": [
+          "ScamApi"
+        ],
+        "parameters": [
+          {
+            "name": "endPoint",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeBody"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeBody"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeBody"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AddChangeBodyResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AddChangeBodyResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AddChangeBodyResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/scamapi/addChangeResponse": {
+      "post": {
+        "tags": [
+          "ScamApi"
+        ],
+        "parameters": [
+          {
+            "name": "endPoint",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeBody"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeBody"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeBody"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AddChangeBodyResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AddChangeBodyResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AddChangeBodyResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AddChangeBodyResponse": {
+        "type": "object",
+        "properties": {
+          "isSuccess": {
+            "type": "boolean"
+          },
+          "errorText": {
+            "type": "string",
+            "nullable": true
+          },
+          "changeBodyArray": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ChangeBody"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AddDomainForChangeResponse": {
+        "type": "object",
+        "properties": {
+          "isSuccess": {
+            "type": "boolean"
+          },
+          "errorText": {
+            "type": "string",
+            "nullable": true
+          },
+          "domainsForReplaceData": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DomainsForReplace"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ChangeBody": {
+        "type": "object",
+        "properties": {
+          "domainRegex": {
+            "type": "string",
+            "nullable": true
+          },
+          "regexesFromReplace": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "textToReplace": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DomainsForReplace": {
+        "type": "object",
+        "properties": {
+          "domainRegex": {
+            "type": "string",
+            "nullable": true
+          },
+          "regexFromReplace": {
+            "type": "string",
+            "nullable": true
+          },
+          "textToReplace": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetInstances": {
+        "type": "object",
+        "properties": {
+          "endPoint": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "$ref": "#/components/schemas/TitaniumInstance"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetTrafficResponse": {
+        "type": "object",
+        "properties": {
+          "isSuccess": {
+            "type": "boolean"
+          },
+          "trafficRecords": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TrafficRecord"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TitaniumInstance": {
+        "type": "object",
+        "properties": {
+          "proxyEndpoint": {
+            "type": "string",
+            "nullable": true
+          },
+          "certificatePath": {
+            "type": "string",
+            "nullable": true
+          },
+          "certificatePemData": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TrafficRecord": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "requestUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "requestMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "requestTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "responseTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "responseDuration": {
+            "type": "string",
+            "format": "date-span"
+          },
+          "responseStatusCode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "responseStatusDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "requestHeaders": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "responseHeaders": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "requestBodyRaw": {
+            "type": "string",
+            "nullable": true
+          },
+          "requestBodyBase64": {
+            "type": "string",
+            "nullable": true
+          },
+          "responseBodyRaw": {
+            "type": "string",
+            "nullable": true
+          },
+          "responseBodyBase64": {
+            "type": "string",
+            "nullable": true
+          },
+          "contentType": {
+            "type": "string",
+            "nullable": true
+          },
+          "contentLength": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "clientIpAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

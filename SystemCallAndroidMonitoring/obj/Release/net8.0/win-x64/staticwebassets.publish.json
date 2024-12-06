@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "5N3cqkFElN9ENi/8tG8uMJp5qK4te3o08YKF7ukQ6YY=",
+  "Source": "SystemCallAndroidMonitoring",
+  "BasePath": "_content/SystemCallAndroidMonitoring",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

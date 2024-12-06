@@ -1,0 +1,24 @@
+2024-12-05 22:54:01.163 +06:00 [INF] Запуск API
+2024-12-05 22:54:02.407 +06:00 [INF] Now listening on: http://localhost:65002
+2024-12-05 22:54:02.450 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-05 22:54:02.451 +06:00 [INF] Hosting environment: Development
+2024-12-05 22:54:02.452 +06:00 [INF] Content root path: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring
+2024-12-05 22:58:58.820 +06:00 [INF] Сертификат сохранен в: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\proxy-cert.crt
+2024-12-05 22:58:58.853 +06:00 [INF] Прокси запущен на 192.168.0.195:50279. Нажмите Enter для выхода.
+2024-12-05 22:59:31.471 +06:00 [INF] Сертификат сохранен в: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\proxy-cert.crt
+2024-12-05 22:59:31.486 +06:00 [INF] Прокси запущен на 192.168.0.195:50298. Нажмите Enter для выхода.
+2024-12-05 23:03:59.235 +06:00 [INF] Инстанс 192.168.0.195:50279 остановлен по дилею в 300 сек.
+2024-12-05 23:08:25.450 +06:00 [INF] Сертификат сохранен в: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\proxy-cert.crt
+2024-12-05 23:08:25.467 +06:00 [INF] Прокси запущен на 192.168.0.195:50721. Нажмите Enter для выхода.
+2024-12-05 23:14:55.093 +06:00 [INF] Сертификат сохранен в: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\proxy-cert.crt
+2024-12-05 23:14:55.114 +06:00 [INF] Прокси запущен на 192.168.0.195:50963. Нажмите Enter для выхода.
+2024-12-05 23:15:36.164 +06:00 [INF] Сертификат сохранен в: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\proxy-cert.crt
+2024-12-05 23:15:36.179 +06:00 [INF] Прокси запущен на 192.168.0.195:50997. Нажмите Enter для выхода.
+2024-12-05 23:16:20.122 +06:00 [INF] Сертификат сохранен в: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\proxy-cert.crt
+2024-12-05 23:16:20.144 +06:00 [INF] Прокси запущен на 192.168.0.195:51025. Нажмите Enter для выхода.
+2024-12-05 23:18:10.255 +06:00 [INF] Сертификат сохранен в: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\proxy-cert.crt
+2024-12-05 23:18:10.270 +06:00 [INF] Прокси запущен на 192.168.0.195:59992. Нажмите Enter для выхода.
+2024-12-05 23:19:14.878 +06:00 [INF] Сертификат сохранен в: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\proxy-cert.crt
+2024-12-05 23:19:14.892 +06:00 [INF] Прокси запущен на 192.168.0.195:60036. Нажмите Enter для выхода.
+2024-12-05 23:49:31.749 +06:00 [INF] Инстанс 192.168.0.195:50298 остановлен по дилею в 3000 сек.
+2024-12-05 23:58:26.048 +06:00 [INF] Инстанс 192.168.0.195:50721 остановлен по дилею в 3000 сек.

@@ -1,0 +1,101 @@
+2024-12-04 00:37:33.459 +06:00 [INF] Инстанс 192.168.0.195:55365 остановлен по дилею в 3000 сек.
+2024-12-04 02:48:01.895 +06:00 [INF] Запуск API
+2024-12-04 02:48:02.785 +06:00 [INF] Now listening on: http://localhost:65002
+2024-12-04 02:48:02.820 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-04 02:48:02.821 +06:00 [INF] Hosting environment: Development
+2024-12-04 02:48:02.822 +06:00 [INF] Content root path: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring
+2024-12-04 02:49:25.436 +06:00 [INF] Сертификат сохранен в: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\proxy-cert.crt
+2024-12-04 02:49:25.466 +06:00 [INF] Прокси запущен на 192.168.0.195:61631. Нажмите Enter для выхода.
+2024-12-04 02:51:41.218 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Deserialization of types without a parameterless constructor, a singular parameterized constructor, or a parameterized constructor annotated with 'JsonConstructorAttribute' is not supported. Type 'SystemCallAndroidMonitoring.Titanium.DomainsForReplace'. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+ ---> System.NotSupportedException: Deserialization of types without a parameterless constructor, a singular parameterized constructor, or a parameterized constructor annotated with 'JsonConstructorAttribute' is not supported. Type 'SystemCallAndroidMonitoring.Titanium.DomainsForReplace'.
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(ReadStack& state, Utf8JsonReader& reader, NotSupportedException ex)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsObjectAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-04 02:55:36.361 +06:00 [INF] Запуск API
+2024-12-04 02:55:37.027 +06:00 [INF] Now listening on: http://localhost:65002
+2024-12-04 02:55:37.072 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-04 02:55:37.073 +06:00 [INF] Hosting environment: Development
+2024-12-04 02:55:37.074 +06:00 [INF] Content root path: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring
+2024-12-04 02:55:53.204 +06:00 [INF] Сертификат сохранен в: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\proxy-cert.crt
+2024-12-04 02:55:53.234 +06:00 [INF] Прокси запущен на 192.168.0.195:62083. Нажмите Enter для выхода.
+2024-12-04 02:56:41.378 +06:00 [INF] [192.168.0.195:62083] Redirecting from https://ru.m.wikipedia.org/wiki/Ручной_труд to: https://ru.m.wikipedia.org/wiki/Автоматизация
+2024-12-04 03:02:09.961 +06:00 [INF] [192.168.0.195:62083] Redirecting from https://ru.wikipedia.org/wiki/Ручной_труд to: https://ru.wikipedia.org/wiki/Автоматизация
+2024-12-04 03:02:52.842 +06:00 [INF] [192.168.0.195:62083] Redirecting from https://ru.wikipedia.org/wiki/Ручной_труд to: https://ru.wikipedia.org/wiki/Автоматизация
+2024-12-04 03:03:20.157 +06:00 [INF] [192.168.0.195:62083] Redirecting from https://ru.wikipedia.org/wiki/Ручной_труд to: https://ru.wikipedia.org/wiki/Автоматизация
+2024-12-04 03:04:13.001 +06:00 [INF] [192.168.0.195:62083] Redirecting from https://ru.wikipedia.org/wiki/Ручной_труд to: https://ru.wikipedia.org/wiki/Автоматизация
+2024-12-04 03:04:31.610 +06:00 [INF] [192.168.0.195:62083] Redirecting from https://ru.wikipedia.org/wiki/Ручной_труд to: https://ru.wikipedia.org/wiki/Автоматизация
+2024-12-04 03:07:35.003 +06:00 [INF] Запуск API
+2024-12-04 03:07:35.628 +06:00 [INF] Now listening on: http://localhost:65002
+2024-12-04 03:07:35.665 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-04 03:07:35.666 +06:00 [INF] Hosting environment: Development
+2024-12-04 03:07:35.667 +06:00 [INF] Content root path: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring
+2024-12-04 03:07:41.105 +06:00 [INF] Сертификат сохранен в: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\proxy-cert.crt
+2024-12-04 03:07:41.132 +06:00 [INF] Прокси запущен на 192.168.0.195:62857. Нажмите Enter для выхода.
+2024-12-04 03:19:36.690 +06:00 [INF] Запуск API
+2024-12-04 03:19:37.643 +06:00 [INF] Now listening on: http://localhost:65002
+2024-12-04 03:19:37.683 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-04 03:19:37.684 +06:00 [INF] Hosting environment: Development
+2024-12-04 03:19:37.685 +06:00 [INF] Content root path: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring
+2024-12-04 03:20:00.948 +06:00 [INF] Сертификат сохранен в: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\proxy-cert.crt
+2024-12-04 03:20:00.976 +06:00 [INF] Прокси запущен на 192.168.0.195:63659. Нажмите Enter для выхода.
+2024-12-04 03:31:11.200 +06:00 [INF] Запуск API
+2024-12-04 03:31:12.044 +06:00 [INF] Now listening on: http://localhost:65002
+2024-12-04 03:31:12.098 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-04 03:31:12.099 +06:00 [INF] Hosting environment: Development
+2024-12-04 03:31:12.101 +06:00 [INF] Content root path: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring
+2024-12-04 03:31:19.325 +06:00 [INF] Сертификат сохранен в: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\proxy-cert.crt
+2024-12-04 03:31:19.354 +06:00 [INF] Прокси запущен на 192.168.0.195:64448. Нажмите Enter для выхода.
+2024-12-04 03:42:27.832 +06:00 [INF] Запуск API
+2024-12-04 03:42:28.586 +06:00 [INF] Now listening on: http://localhost:65002
+2024-12-04 03:42:28.633 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-04 03:42:28.634 +06:00 [INF] Hosting environment: Development
+2024-12-04 03:42:28.635 +06:00 [INF] Content root path: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring
+2024-12-04 03:42:32.518 +06:00 [INF] Сертификат сохранен в: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\proxy-cert.crt
+2024-12-04 03:42:32.547 +06:00 [INF] Прокси запущен на 192.168.0.195:65164. Нажмите Enter для выхода.
+2024-12-04 03:42:40.369 +06:00 [INF] [OnBeforeRequest] Error: An item with the same key has already been added. Key: Accept
+2024-12-04 03:42:41.227 +06:00 [INF] [OnBeforeRequest] Error: An item with the same key has already been added. Key: X-Requested-With
+2024-12-04 03:42:52.139 +06:00 [INF] [OnBeforeRequest] Error: An item with the same key has already been added. Key: Accept
+2024-12-04 03:43:09.957 +06:00 [INF] [OnBeforeRequest] Error: An item with the same key has already been added. Key: Accept
+2024-12-04 03:43:17.287 +06:00 [INF] [OnBeforeRequest] Error: An item with the same key has already been added. Key: Accept
+2024-12-04 03:43:25.035 +06:00 [INF] [OnBeforeRequest] Error: An item with the same key has already been added. Key: Accept
+2024-12-04 03:43:26.108 +06:00 [INF] [OnBeforeRequest] Error: An item with the same key has already been added. Key: Accept
+2024-12-04 03:44:11.449 +06:00 [INF] Запуск API
+2024-12-04 03:44:12.213 +06:00 [INF] Now listening on: http://localhost:65002
+2024-12-04 03:44:12.255 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-04 03:44:12.256 +06:00 [INF] Hosting environment: Development
+2024-12-04 03:44:12.257 +06:00 [INF] Content root path: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring
+2024-12-04 03:57:25.938 +06:00 [INF] Запуск API
+2024-12-04 03:57:26.741 +06:00 [INF] Now listening on: http://localhost:65002
+2024-12-04 03:57:26.782 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-04 03:57:26.783 +06:00 [INF] Hosting environment: Development
+2024-12-04 03:57:26.784 +06:00 [INF] Content root path: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring
+2024-12-04 03:57:31.124 +06:00 [INF] Сертификат сохранен в: C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\proxy-cert.crt
+2024-12-04 03:57:31.153 +06:00 [INF] Прокси запущен на 192.168.0.195:49699. Нажмите Enter для выхода.
+2024-12-04 04:08:05.601 +06:00 [INF] [192.168.0.195:49699] Redirecting from https://ru.m.wikipedia.org/wiki/Ручной_труд to: https://ru.m.wikipedia.org/wiki/Автоматизация
+2024-12-04 04:08:06.473 +06:00 [INF] [192.168.0.195:49699] Redirecting from https://ru.m.wikipedia.org/wiki/Ручной_труд to: https://ru.m.wikipedia.org/wiki/Автоматизация
+2024-12-04 04:08:06.615 +06:00 [INF] [192.168.0.195:49699] Redirecting from https://ru.m.wikipedia.org/wiki/Ручной_труд to: https://ru.m.wikipedia.org/wiki/Автоматизация
+2024-12-04 04:08:06.882 +06:00 [INF] [192.168.0.195:49699] Redirecting from https://ru.m.wikipedia.org/wiki/Ручной_труд to: https://ru.m.wikipedia.org/wiki/Автоматизация
+2024-12-04 04:08:30.486 +06:00 [INF] [192.168.0.195:49699] Redirecting from https://ru.m.wikipedia.org/wiki/Ручной_труд to: https://ru.m.wikipedia.org/wiki/Автоматизация
+2024-12-04 04:08:41.427 +06:00 [INF] [192.168.0.195:49699] Redirecting from https://ru.m.wikipedia.org/wiki/Ручной_труд to: https://ru.m.wikipedia.org/wiki/Автоматизация
+2024-12-04 04:47:31.475 +06:00 [INF] Инстанс 192.168.0.195:49699 остановлен по дилею в 3000 сек.
