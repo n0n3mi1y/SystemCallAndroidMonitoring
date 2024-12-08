@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SystemCallAndroidMonitoring")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+584049e3b00d718af00f769bd2b2756684b0387a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SystemCallAndroidMonitoring")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SystemCallAndroidMonitoring")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

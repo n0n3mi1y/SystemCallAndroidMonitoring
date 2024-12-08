@@ -343,6 +343,8 @@ namespace SystemCallAndroidMonitoring.Titanium
 
         private async Task OnBeforeResponse(object sender, SessionEventArgs e)
         {
+            this.LastRequestAt = DateTime.UtcNow;
+
             var startUrl = HttpUtility.UrlDecode(e.HttpClient.Request.Url);
             var thisUrl = HttpUtility.UrlDecode(e.HttpClient.Request.Url);
             string? thisBody = null;

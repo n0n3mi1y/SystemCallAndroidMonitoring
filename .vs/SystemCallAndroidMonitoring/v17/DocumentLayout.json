@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\n0n3mi1y\\source\\repos\\SystemCallAndroidMonitoring\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FC286A0-E7A2-43BB-9708-CA48E0E142EF}|SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring.csproj|c:\\users\\n0n3mi1y\\source\\repos\\systemcallandroidmonitoring\\systemcallandroidmonitoring\\controllers\\scamapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FC286A0-E7A2-43BB-9708-CA48E0E142EF}|SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring.csproj|solutionrelative:systemcallandroidmonitoring\\controllers\\scamapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1FC286A0-E7A2-43BB-9708-CA48E0E142EF}|SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring.csproj|c:\\users\\n0n3mi1y\\source\\repos\\systemcallandroidmonitoring\\systemcallandroidmonitoring\\titanium\\titaniuminstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FC286A0-E7A2-43BB-9708-CA48E0E142EF}|SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring.csproj|solutionrelative:systemcallandroidmonitoring\\titanium\\titaniuminstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FC286A0-E7A2-43BB-9708-CA48E0E142EF}|SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring.csproj|c:\\users\\n0n3mi1y\\source\\repos\\systemcallandroidmonitoring\\systemcallandroidmonitoring\\controllers\\scamapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FC286A0-E7A2-43BB-9708-CA48E0E142EF}|SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring.csproj|solutionrelative:systemcallandroidmonitoring\\controllers\\scamapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FC286A0-E7A2-43BB-9708-CA48E0E142EF}|SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring.csproj|c:\\users\\n0n3mi1y\\source\\repos\\systemcallandroidmonitoring\\systemcallandroidmonitoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +34,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SCAMApi.cs",
               "DocumentMoniker": "C:\\Users\\n0n3mi1y\\source\\repos\\SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring\\Controllers\\SCAMApi.cs",
               "RelativeDocumentMoniker": "SystemCallAndroidMonitoring\\Controllers\\SCAMApi.cs",
               "ToolTip": "C:\\Users\\n0n3mi1y\\source\\repos\\SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring\\Controllers\\SCAMApi.cs",
               "RelativeToolTip": "SystemCallAndroidMonitoring\\Controllers\\SCAMApi.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAHsAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T17:57:43.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TitaniumInstance.cs",
               "DocumentMoniker": "C:\\Users\\n0n3mi1y\\source\\repos\\SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring\\Titanium\\TitaniumInstance.cs",
               "RelativeDocumentMoniker": "SystemCallAndroidMonitoring\\Titanium\\TitaniumInstance.cs",
               "ToolTip": "C:\\Users\\n0n3mi1y\\source\\repos\\SystemCallAndroidMonitoring\\SystemCallAndroidMonitoring\\Titanium\\TitaniumInstance.cs",
               "RelativeToolTip": "SystemCallAndroidMonitoring\\Titanium\\TitaniumInstance.cs",
-              "ViewState": "AgIAANgBAAAAAAAAAAA1wOkBAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAJIAAAAAAAAAAAASwMYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T16:59:56.96Z",
               "EditorCaption": ""

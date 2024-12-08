@@ -49,3 +49,4 @@ C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMoni
 C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\obj\Release\net8.0\win-x64\SystemCallAndroidMonitoring.pdb
 C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\obj\Release\net8.0\win-x64\SystemCallAndroidMonitoring.genruntimeconfig.cache
 C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\obj\Release\net8.0\win-x64\ref\SystemCallAndroidMonitoring.dll
+C:\Users\n0n3mi1y\source\repos\SystemCallAndroidMonitoring\SystemCallAndroidMonitoring\obj\Release\net8.0\win-x64\SystemCallAndroidMonitoring.sourcelink.json
